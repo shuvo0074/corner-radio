@@ -12,7 +12,7 @@ function RadioList({ currentlyPlaying, setcurrentlyPlaying }) {
   return (
     <div className="list-Container">
       {items.map((item, index) => (
-        <ListItem key={index} onClick={()=>setcurrentlyPlaying(item)} isExpanded={index == currentlyPlaying.id} item={item} />
+        <ListItem key={index} onClick={()=>setcurrentlyPlaying(item)} isExpanded={index === currentlyPlaying.id} item={item} />
       ))}
     </div>
   );

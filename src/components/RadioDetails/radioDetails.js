@@ -8,14 +8,17 @@ function RadioDetails() {
       <img
         src={minusBtn}
         className="itemBtn cursor-pointer"
+        alt="reduce"
       />
       <img
         src={"https://picsum.photos/200"}
         className="coverImg"
+        alt="cover"
       />
       <img
         src={plusBtn}
         className="itemBtn cursor-pointer"
+        alt="increase"
       />
       
     </div>
