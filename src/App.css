@@ -26,7 +26,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.fs-22 {
+  font-size: 22px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-bold {
+  font-weight: bold;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
