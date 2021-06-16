@@ -1,8 +1,9 @@
 import './listHeader.css';
 import backBtn from '../../assets/icons/back-arrow.png'
 import switchBtn from '../../assets/icons/switch.png'
+import { emptyItem } from '../../const/radioList';
 
-function ListHeader() {
+function ListHeader({setcurrentlyPlaying}) {
   return (
     <div className="listHeader">
       <img
@@ -19,6 +20,7 @@ function ListHeader() {
       <img
         src={switchBtn}
         className="headerBtnSwitch cursor-pointer"
+        onClick={()=>setcurrentlyPlaying(emptyItem)}
       />
     </div>
   );
