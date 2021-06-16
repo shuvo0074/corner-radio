@@ -3,7 +3,7 @@ export const radioList = [
     id: 0,
     title: "Putin FM",
     userCount: 666,
-    url: "http://s2.cdnradio.ru/ru-mp3-128",
+    url: "https://appradio.app:8010/live",
   },
   {
     id: 1,
@@ -15,37 +15,37 @@ export const radioList = [
     id: 2,
     title: "Dribble FM",
     userCount: 994,
-    url: "http://s3.voscast.com:9836/stream",
+    url: "https://s3.voscast.com:9836/stream",
   },
   {
     id: 3,
     title: "Doge FM",
     userCount: 994,
-    url: "http://ice10.fluidstream.net:8080/calciofvg.mp3",
+    url: "https://radio4.vip-radios.fm:8020/stream-mp3-Chill_autodj",
   },
   {
     id: 4,
     title: "Maximum FM",
     userCount: 994,
-    url: "http://cdn01.radio.cloud/bcn-client27-glx",
+    url: "https://cdn01.radio.cloud/bcn-client27-glx",
   },
   {
     id: 5,
     title: "Rock FM",
     userCount: 994,
-    url: "http://stream.diazol.hu:35200/live",
+    url: "https://stream.diazol.hu:35200/live",
   },
   {
     id: 6,
     title: "Top FM",
     userCount: 994,
-    url: "http://s3.voscast.com:9836/stream",
+    url: "https://s3.voscast.com:9836/stream",
   },
   {
     id: 7,
     title: "Sunset FM",
     userCount: 994,
-    url: "http://s2.cdnradio.ru/ru-mp3-128",
+    url: "https://s2.cdnradio.ru/ru-mp3-128",
   },
 ];
 export const emptyItem = {
