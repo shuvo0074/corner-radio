@@ -5,19 +5,21 @@ import ListHeader from "./components/ListHeader/listHeader";
 import RadioList from "./components/RadioList/radioList";
 
 function App() {
-  const [ currentlyPlaying, setcurrentlyPlaying] = useState({
-    title: "Putin FM",
-    userCount: 666,
-    url: "http://s2.cdnradio.ru/ru-mp3-128"
-})
+  const [currentlyPlaying, setcurrentlyPlaying] = useState({
+    id: -1,
+    title: "",
+    userCount: 0,
+    url: "",
+  });
   return (
     <div className="App">
       <div className="Radio-container">
         <ListHeader />
-        <RadioList />
-        <ListFooter
+        <RadioList
           currentlyPlaying={currentlyPlaying}
+          setcurrentlyPlaying={setcurrentlyPlaying}
         />
+        <ListFooter currentlyPlaying={currentlyPlaying} />
       </div>
     </div>
   );

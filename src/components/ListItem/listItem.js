@@ -8,7 +8,7 @@ function ListItem({ item, onClick, isExpanded }) {
         <p className="fs-25 fw-400 greyText">{item.title}</p>
         <p className="fs-22 fw-bold greyText">{item.userCount}</p>
       </div>
-      <RadioDetails />
+      {isExpanded ? <RadioDetails /> : null}
     </div>
   );
 }
