@@ -7,15 +7,27 @@ import { emptyItem } from "./const/radioList";
 
 function App() {
   const [currentlyPlaying, setcurrentlyPlaying] = useState(emptyItem);
+  const audioPlayer= document.getElementById("audioPlayer")
+  function playRadio(data){
+    audioPlayer.pause()
+    setcurrentlyPlaying(data)
+    audioPlayer.src=data.url
+    audioPlayer.play()
+  }
+  function stopRadio(){
+    audioPlayer.pause()
+    setcurrentlyPlaying(emptyItem)
+  }
   return (
     <div className="App">
       <div className="Radio-container">
-        <ListHeader setcurrentlyPlaying={setcurrentlyPlaying} />
+        <ListHeader setcurrentlyPlaying={stopRadio} />
         <RadioList
           currentlyPlaying={currentlyPlaying}
-          setcurrentlyPlaying={setcurrentlyPlaying}
+          setcurrentlyPlaying={playRadio}
         />
         <ListFooter currentlyPlaying={currentlyPlaying} />
+        <audio src="http://s2.cdnradio.ru/ru-mp3-128" id="audioPlayer" ></audio>
       </div>
     </div>
   );

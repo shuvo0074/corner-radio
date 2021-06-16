@@ -20,7 +20,7 @@ function ListHeader({setcurrentlyPlaying}) {
       <img
         src={switchBtn}
         className="headerBtnSwitch cursor-pointer"
-        onClick={()=>setcurrentlyPlaying(emptyItem)}
+        onClick={()=>setcurrentlyPlaying()}
       />
     </div>
   );
