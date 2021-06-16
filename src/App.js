@@ -27,7 +27,7 @@ function App() {
           setcurrentlyPlaying={playRadio}
         />
         <ListFooter currentlyPlaying={currentlyPlaying} />
-        <audio src="http://s2.cdnradio.ru/ru-mp3-128" id="audioPlayer" ></audio>
+        <audio src="" id="audioPlayer" ></audio>
       </div>
     </div>
   );

@@ -15,13 +15,13 @@ export const radioList = [
     id: 2,
     title: "Dribble FM",
     userCount: 994,
-    url: "https://s3.voscast.com:9836/stream",
+    url: "http://radio-nice.ru:8130/stream",
   },
   {
     id: 3,
     title: "Doge FM",
     userCount: 994,
-    url: "https://radio4.vip-radios.fm:8020/stream-mp3-Chill_autodj",
+    url: "https://streaming511.radionomy.com/100-PROGRESSIVEROCK",
   },
   {
     id: 4,
@@ -39,13 +39,13 @@ export const radioList = [
     id: 6,
     title: "Top FM",
     userCount: 994,
-    url: "https://s3.voscast.com:9836/stream",
+    url: "",
   },
   {
     id: 7,
     title: "Sunset FM",
     userCount: 994,
-    url: "https://daniel.torontocast.com:1670/stream",
+    url: "https://ais-edge23-dal02.cdnstream.com/2329_128_fall2.mp3",
   },
 ];
 export const emptyItem = {
