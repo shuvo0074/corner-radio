@@ -1,7 +1,7 @@
 .App {
   width: auto;
   height: 100vh;
-  background-color: #21212B;
+  background-color: #2f2f36;
   position: relative;
   align-items: center;
   display: flex;
@@ -34,6 +34,12 @@ body {
 }
 .fs-25 {
   font-size: 25px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.greyText {
+  color: #969EB0
 }
 .fw-400 {
   font-weight: 400;

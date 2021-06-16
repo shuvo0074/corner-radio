@@ -1,0 +1,16 @@
+
+.listFooter {
+    height: 70px;
+    background-color: #21212B;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.currentlyPlayingTxt {
+    color: #ECAE61;
+    margin: 0px;
+}
+.currentlyPlayingTitle {
+    margin: 0px;
+}
