@@ -7,14 +7,15 @@ import { emptyItem } from "./const/radioList";
 
 function App() {
   const [currentlyPlaying, setcurrentlyPlaying] = useState(emptyItem);
-  const audioPlayer= document.getElementById("audioPlayer")
   function playRadio(data){
+    const audioPlayer= document.getElementById("audioPlayer")
     audioPlayer.pause()
     setcurrentlyPlaying(data)
     audioPlayer.src=data.url
     audioPlayer.play()
   }
   function stopRadio(){
+    const audioPlayer= document.getElementById("audioPlayer")
     audioPlayer.pause()
     setcurrentlyPlaying(emptyItem)
   }
