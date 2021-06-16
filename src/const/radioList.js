@@ -33,7 +33,7 @@ export const radioList = [
     id: 5,
     title: "Rock FM",
     userCount: 994,
-    url: "https://stream.diazol.hu:35200/live",
+    url: "https://stream.nightride.fm/darksynth.ogg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const radioList = [
     id: 7,
     title: "Sunset FM",
     userCount: 994,
-    url: "https://s2.cdnradio.ru/ru-mp3-128",
+    url: "https://daniel.torontocast.com:1670/stream",
   },
 ];
 export const emptyItem = {
