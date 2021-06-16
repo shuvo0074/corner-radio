@@ -1,0 +1,27 @@
+.headerBtnBack {
+    width: 15px;
+    height: 25px;
+}
+.headerBtnSwitch {
+    width: 25px;
+    height: 27px;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.listHeader {
+    height: 80px;
+    background-color: #ECAE61;
+    border-radius: 20px 20px 0px 0px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headerTitleContainer{
+    width: 60%;
+    text-align: center;
+}
+.headerTitle{
+    color: #fff;
+}
