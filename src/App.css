@@ -1,5 +1,20 @@
 .App {
-  text-align: center;
+  width: auto;
+  height: 100vh;
+  background-color: #21212B;
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+.Radio-container {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 18px 10px -6px black;
+  margin: 0 auto;
+  background-color:#2F303B;
+  padding: 10px;
+  position: relative;
 }
 
 .App-logo {
