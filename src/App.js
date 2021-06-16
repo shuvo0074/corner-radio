@@ -9,7 +9,6 @@ function App() {
   const [currentlyPlaying, setcurrentlyPlaying] = useState(emptyItem);
   function playRadio(data){
     const audioPlayer= document.getElementById("audioPlayer")
-    audioPlayer.pause()
     setcurrentlyPlaying(data)
     audioPlayer.src=data.url
     audioPlayer.play()
