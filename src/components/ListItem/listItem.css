@@ -1,0 +1,7 @@
+.item-Container {
+    cursor: pointer;
+    border: 0px 0px 1px 0px grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
