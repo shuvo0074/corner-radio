@@ -39,7 +39,7 @@ export const radioList = [
     id: 6,
     title: "Top FM",
     userCount: 994,
-    url: "",
+    url: "http://streaming.specialmixnetwork.com:8006/stream",
   },
   {
     id: 7,
